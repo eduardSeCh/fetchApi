@@ -1,0 +1,27 @@
+body {
+    background-color: #dcdad7;
+/*     color: #FCA311 */;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #e5e5e5;
+    transition: .3s ease all;
+}
+
+tbody tr {
+    transition: .3s ease all;
+}
+
+table tbody tr:nth-child(odd):hover, tbody tr:hover {
+    background-color: #14213D;
+    color: #FCA311;
+    scale: 1.1;
+}
+
+img {
+    transition: .3s ease all;
+}
+
+img:hover {
+    scale: 1.2;
+}
